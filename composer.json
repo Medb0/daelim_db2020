@@ -4,6 +4,7 @@
 
     },
     "autoload": {
+<<<<<<< HEAD
         "psr-4":{
             "App\\": "App/",
             "Modules\\" : "Modules"
@@ -11,5 +12,14 @@
         "files": [
             "Modules/helper.php"
         ]
+=======
+        "psr-4": {
+            "App\\": "App/",
+            "Modules\\": "Modules/"
+        },
+        "files": [
+			"Modules/helper.php"
+		]
+>>>>>>> 6b7fd584beeb641194144f64688aaa892f9d2278
     }
 }
